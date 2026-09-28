@@ -1,0 +1,10 @@
+# Nmap 7.99 scan initiated Sun Sep 27 13:15:00 2026 as: /usr/lib/nmap/nmap -sS -sV -O -oA /home/kali/network-audit/scans/initial-discovery 10.10.10.0/27
+Host: 10.10.10.1 ()	Status: Up
+Host: 10.10.10.1 ()	Ports: 	Ignored State: closed (1000)
+Host: 10.10.10.20 ()	Status: Up
+Host: 10.10.10.20 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)/, 49153/open/tcp//msrpc//Microsoft Windows RPC/, 49154/open/tcp//msrpc//Microsoft Windows RPC/, 49155/open/tcp//msrpc//Microsoft Windows RPC/, 49156/open/tcp//msrpc//Microsoft Windows RPC/	Ignored State: filtered (993)	OS: Microsoft Windows Embedded Standard 7|Microsoft Windows Phone 7.5 or 8.0	Seq Index: 260	IP ID Seq: Incremental
+Host: 10.10.10.30 ()	Status: Up
+Host: 10.10.10.30 ()	Ports: 22/open/tcp//ssh//OpenSSH 10.2p1 Ubuntu 2ubuntu3.6 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.66 ((Ubuntu))/	Ignored State: closed (998)	Seq Index: 256	IP ID Seq: All zeros
+Host: 10.10.10.10 ()	Status: Up
+Host: 10.10.10.10 ()	Ports: 	Ignored State: filtered (1000)
+# Nmap done at Sun Sep 27 13:19:40 2026 -- 32 IP addresses (4 hosts up) scanned in 279.61 seconds

@@ -1,0 +1,63 @@
+# Nmap 7.99 scan initiated Sun Sep 27 13:15:00 2026 as: /usr/lib/nmap/nmap -sS -sV -O -oA /home/kali/network-audit/scans/initial-discovery 10.10.10.0/27
+Nmap scan report for 10.10.10.1
+Host is up (0.00043s latency).
+All 1000 scanned ports on 10.10.10.1 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 0A:00:27:00:00:00 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 10.10.10.20
+Host is up (0.0012s latency).
+Not shown: 993 filtered tcp ports (no-response)
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 08:00:27:F4:73:69 (Oracle VirtualBox virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|phone
+Running: Microsoft Windows 7|Phone
+OS CPE: cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows
+OS details: Microsoft Windows Embedded Standard 7, Microsoft Windows Phone 7.5 or 8.0
+Network Distance: 1 hop
+Service Info: Host: WINWIN; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.10.10.30
+Host is up (0.0012s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 10.2p1 Ubuntu 2ubuntu3.6 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.66 ((Ubuntu))
+MAC Address: 08:00:27:CD:E6:F7 (Oracle VirtualBox virtual NIC)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.99%E=4%D=9/27%OT=22%CT=1%CU=41143%PV=Y%DS=1%DC=D%G=Y%M=080027%T
+OS:M=6AB94F60%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=100%TI=Z%CI=Z%II=I
+OS:%TS=21)SEQ(SP=101%GCD=1%ISR=103%TI=Z%CI=Z%II=I%TS=22)SEQ(SP=103%GCD=1%IS
+OS:R=10D%TI=Z%CI=Z%TS=21)SEQ(SP=105%GCD=1%ISR=10C%TI=Z%CI=Z%II=I%TS=21)SEQ(
+OS:SP=106%GCD=1%ISR=10E%TI=Z%CI=Z%II=I%TS=21)OPS(O1=M5B4ST11NW8%O2=M5B4ST11
+OS:NW8%O3=M5B4NNT11NW8%O4=M5B4ST11NW8%O5=M5B4ST11NW8%O6=M5B4ST11)WIN(W1=FE8
+OS:8%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M5B
+OS:4NNSNW8%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(
+OS:R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F
+OS:=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T
+OS:=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RI
+OS:D=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 10.10.10.10
+Host is up (0.000042s latency).
+All 1000 scanned ports on 10.10.10.10 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep 27 13:19:40 2026 -- 32 IP addresses (4 hosts up) scanned in 279.61 seconds

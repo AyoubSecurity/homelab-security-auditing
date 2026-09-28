@@ -1,0 +1,4 @@
+IP,Host,OS,Role,Services,Status
+10.10.10.10,Kali,Kali Linux,Auditor,—,Authorized
+10.10.10.20,WIN7-CLIENT,Windows 7,Client,TBD,Authorized
+10.10.10.30,UBUNTU-SRV,Ubuntu,Server,SSH/HTTP,Authorized
