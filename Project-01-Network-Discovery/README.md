@@ -15,5 +15,3 @@ Initial network discovery and asset inventory assessment using Kali-Linux, Windo
 - Asset inventory
 - Evidence collection
 - Security reporting
-
-[View Project 01](./Project-01-Network-Discovery/)
