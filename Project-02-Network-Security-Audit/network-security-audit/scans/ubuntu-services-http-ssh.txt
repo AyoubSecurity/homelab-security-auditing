@@ -1,0 +1,62 @@
+# Nmap 7.99 scan initiated Tue Sep 29 10:55:14 2026 as: /usr/lib/nmap/nmap -p22,80,443 --script ssh2-enum-algos,http-title,http-headers -oN ubuntu-services-http-ssh.txt 10.10.10.30
+Nmap scan report for 10.10.10.30
+Host is up (0.00054s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+| ssh2-enum-algos: 
+|   kex_algorithms: (10)
+|       mlkem768x25519-sha256
+|       sntrup761x25519-sha512
+|       sntrup761x25519-sha512@openssh.com
+|       curve25519-sha256
+|       curve25519-sha256@libssh.org
+|       ecdh-sha2-nistp256
+|       ecdh-sha2-nistp384
+|       ecdh-sha2-nistp521
+|       ext-info-s
+|       kex-strict-s-v00@openssh.com
+|   server_host_key_algorithms: (4)
+|       rsa-sha2-512
+|       rsa-sha2-256
+|       ecdsa-sha2-nistp256
+|       ssh-ed25519
+|   encryption_algorithms: (6)
+|       chacha20-poly1305@openssh.com
+|       aes128-gcm@openssh.com
+|       aes256-gcm@openssh.com
+|       aes128-ctr
+|       aes192-ctr
+|       aes256-ctr
+|   mac_algorithms: (10)
+|       umac-64-etm@openssh.com
+|       umac-128-etm@openssh.com
+|       hmac-sha2-256-etm@openssh.com
+|       hmac-sha2-512-etm@openssh.com
+|       hmac-sha1-etm@openssh.com
+|       umac-64@openssh.com
+|       umac-128@openssh.com
+|       hmac-sha2-256
+|       hmac-sha2-512
+|       hmac-sha1
+|   compression_algorithms: (2)
+|       none
+|_      zlib@openssh.com
+80/tcp  open   http
+| http-headers: 
+|   Date: Tue, 29 Sep 2026 14:55:14 GMT
+|   Server: Apache/2.4.66 (Ubuntu)
+|   Last-Modified: Sun, 27 Sep 2026 13:51:39 GMT
+|   ETag: "29b0-65c773faa471d"
+|   Accept-Ranges: bytes
+|   Content-Length: 10672
+|   Vary: Accept-Encoding
+|   Connection: close
+|   Content-Type: text/html
+|   
+|_  (Request type: HEAD)
+|_http-title: Apache2 Ubuntu Default Page: It works
+443/tcp closed https
+MAC Address: 08:00:27:CD:E6:F7 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Tue Sep 29 10:55:14 2026 -- 1 IP address (1 host up) scanned in 0.13 seconds

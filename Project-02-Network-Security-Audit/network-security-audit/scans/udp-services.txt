@@ -1,0 +1,15 @@
+# Nmap 7.99 scan initiated Tue Sep 29 10:38:32 2026 as: /usr/lib/nmap/nmap -sU --top-ports 100 -oN scans/udp-services.txt 10.10.10.20 10.10.10.30
+Nmap scan report for 10.10.10.20
+Host is up (0.00063s latency).
+Not shown: 99 open|filtered udp ports (no-response)
+PORT    STATE SERVICE
+137/udp open  netbios-ns
+MAC Address: 08:00:27:F4:73:69 (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 10.10.10.30
+Host is up (0.0010s latency).
+All 100 scanned ports on 10.10.10.30 are in ignored states.
+Not shown: 100 closed udp ports (port-unreach)
+MAC Address: 08:00:27:CD:E6:F7 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Tue Sep 29 10:40:08 2026 -- 2 IP addresses (2 hosts up) scanned in 96.29 seconds

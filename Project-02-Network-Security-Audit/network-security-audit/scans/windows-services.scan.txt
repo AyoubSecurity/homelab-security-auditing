@@ -1,0 +1,12 @@
+# Nmap 7.99 scan initiated Tue Sep 29 10:38:22 2026 as: /usr/lib/nmap/nmap -sC -sV -Pn -p135,139,445 --script=smb-* -oN scans/windows-services.scan.txt 10.10.10.30
+Nmap scan report for 10.10.10.30
+Host is up (0.00066s latency).
+
+PORT    STATE  SERVICE      VERSION
+135/tcp closed msrpc
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 08:00:27:CD:E6:F7 (Oracle VirtualBox virtual NIC)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep 29 10:38:22 2026 -- 1 IP address (1 host up) scanned in 0.19 seconds
